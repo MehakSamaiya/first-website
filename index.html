@@ -27,38 +27,38 @@
     <h2>@containers</h2>
 
     <h3>Fluid container</h3>
-    <div> This is a fluid container and is end to end.</div>
+    <div class="container"> This is a fluid container and is end to end.</div>
 
     <h3>Center container</h3>
-    <div> This is a center container and is specified width to width.</div>
+    <div class="container container-center"> This is a center container and is specified width to width.</div>
 
     <hr>
 
     <h2>@links</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary link</a>
+    <a href="/" class="link primary-link">Primary Link</a>
+    <a href="/" class="link secondary-link">Secondary link</a>
     <p>Links are also inline tags like small.</p>
 
     <hr>
 
     <h2>@lists</h2>
 
-    <h3>unordered lists</h3>
-    <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
+    <h3>unordered inline lists</h3>
+    <ul class="list-non-bullet">
+        <li class="list-inline">Item One</li>
+        <li class="list-inline">Item Two</li>
+        <li class="list-inline">Item Three</li>
     </ul>
 
-    <h3>unordered inline lists</h3>
-    <ul>
+    <h3>unordered lists</h3>
+    <ul class="list-non-bullet">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
     </ul>
 
     <h3>reverse order lists</h3>
-    <ol>
+    <ol reversed>
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
@@ -67,12 +67,13 @@
     <hr>
 
     <h2>@nav</h2>
-    <nav>
-        <ul>
+    <nav class="navigation container">
+        <div class="nav-brand">IamBrand</div>
+        <ul class="list-non-bullet list-inline nav-pills">
             <li>
-                <a href="/">Home</a>
-                <a href="/">Projects</a>
-                <a href="/">Blogs</a>
+                <a href="/" class="link link-active">Home</a>
+                <a href="/" class="link">Projects</a>
+                <a href="/" class="link">Blogs</a>
             </li>
         </ul>
     </nav>
