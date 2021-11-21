@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root {
     --primary-color:#111827;
     --off-white: #E5E7EB;
+    --light-gray: #9CA3AF;
 }
 
 body{
-    font-family: 'IBM Plex Sans', 
-    sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0px;
 }
 
@@ -76,10 +76,16 @@ hr{
 
 .hero{
     padding: 2rem;
+    text-align: center;
 }
 
 .hero .hero-heading{
     text-align: center;
+}
+
+.hero .hero-heading-special{
+    color: var(--light-gray);
+    font-size: 20px;
 }
 
 .hero .hero-img {
